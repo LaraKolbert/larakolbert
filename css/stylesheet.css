@@ -1,6 +1,4 @@
-
-body {margin: 100px;}
-
+body {margin:0px;}
 
 * {
   font-family:  muli, sans-serif;
@@ -22,9 +20,11 @@ div {margin-top: 40px;}
 
 b {font-weight: normal;}
 
-.wrapper{
+/*index.html*/
+.wrapper {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
   width: 800px;
 }
 
@@ -51,6 +51,31 @@ b {font-weight: normal;}
   display: inline-block;
 }
 
-.kasten h3 {display: inline-block;
+.kasten h3 {
+  display: inline-block;
   margin-left: 20px;
+}
+
+
+/*about.html*/
+
+.main-nav li {
+  display: inline-block;
+  width:100px;
+}
+
+.main-nav span {
+  float:right;
+}
+
+.fixheader {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+}
+
+.rainy {
+  width:100%;
+  clip: rect(20px 100% 220px 0%);
+  overflow: hidden;
 }
